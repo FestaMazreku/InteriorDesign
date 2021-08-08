@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body 
+{
+    font-family: 'Halant', serif;
+    overflow-x: hidden;
+}
+
+.search-box 
+{
+    position: relative;
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 2px;
+}
+
+.search-box:hover > .search-txt
+{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn
+{
+    background: white;
+    color: black;
+}
+
+.search-btn
+{
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.search-txt
+{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0px;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    font-weight: bold;
+}
+
+.thecontainer 
+{
+	width: 100%;
+	height: auto;
+}
+
+.p1
+{
+    text-align: center;
+    color: darkslateblue;
+    font-size: 40px;
+    font-family: 'Lora', serif;
+    animation-name: tada;
+    animation-duration: 5s;
+}
+
+.p2
+{
+    text-align: center;
+    color: darkslateblue;
+    font-size: 18px;
+}
+
+.foto 
+{
+    width: 400px;
+    height: auto;
+}
